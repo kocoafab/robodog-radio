@@ -169,7 +169,7 @@ namespace robodog {
         roll = deflib.toSigned8(receivedBuffer[4])
         pitch = deflib.toSigned8(receivedBuffer[5])
         updateYawState(deflib.toSigned16((receivedBuffer[7] << 8) | receivedBuffer[6]))
-        buttonPressed = (receivedBuffer[8] & 0x0F) != 0
+        buttonPressed = (receivedBuffer[8] & 0x01) == 1
         cameraAlive = receivedBuffer[9] != 0
     }
 

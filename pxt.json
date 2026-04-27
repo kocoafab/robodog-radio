@@ -12,8 +12,8 @@
         "README.md",
         "robodog-radio.ts",
         "deflib.ts",
-        "_locales/ko/robodog-strings.json",
-        "_locales/en/robodog-strings.json"
+        "_locales/ko/robodog-radio-strings.json",
+        "_locales/en/robodog-radio-strings.json"
     ],
     "testFiles": [
         "test.ts"
